@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19AD8A3C1F6291B800A21496 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD8A3B1F6291B800A21496 /* LoginViewController.swift */; };
 		60DFBBA51F62795500C0E848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFBBA41F62795500C0E848 /* AppDelegate.swift */; };
-		60DFBBA71F62795500C0E848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFBBA61F62795500C0E848 /* ViewController.swift */; };
 		60DFBBAA1F62795500C0E848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBA81F62795500C0E848 /* Main.storyboard */; };
 		60DFBBAC1F62795500C0E848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBAB1F62795500C0E848 /* Assets.xcassets */; };
 		60DFBBAF1F62795500C0E848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBAD1F62795500C0E848 /* LaunchScreen.storyboard */; };
@@ -19,10 +19,10 @@
 
 /* Begin PBXFileReference section */
 		0C9BDCFB1B6EDCF280985AC2 /* Pods-NextChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.debug.xcconfig"; sourceTree = "<group>"; };
+		19AD8A3B1F6291B800A21496 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3EEA7E75551D3CBC7BCFB883 /* Pods-NextChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.release.xcconfig"; sourceTree = "<group>"; };
 		60DFBBA11F62795500C0E848 /* NextChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DFBBA41F62795500C0E848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60DFBBA61F62795500C0E848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60DFBBA91F62795500C0E848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60DFBBAB1F62795500C0E848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60DFBBAE1F62795500C0E848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				60DFBBA41F62795500C0E848 /* AppDelegate.swift */,
-				60DFBBA61F62795500C0E848 /* ViewController.swift */,
+				19AD8A3B1F6291B800A21496 /* LoginViewController.swift */,
 				60DFBBA81F62795500C0E848 /* Main.storyboard */,
 				F8EA022D1F6289C900947178 /* GoogleService-Info.plist */,
 				60DFBBB61F627B7000C0E848 /* Auth.storyboard */,
@@ -231,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DFBBA71F62795500C0E848 /* ViewController.swift in Sources */,
+				19AD8A3C1F6291B800A21496 /* LoginViewController.swift in Sources */,
 				60DFBBA51F62795500C0E848 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
