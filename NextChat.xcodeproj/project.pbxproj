@@ -12,9 +12,13 @@
 		60DFBBAA1F62795500C0E848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBA81F62795500C0E848 /* Main.storyboard */; };
 		60DFBBAC1F62795500C0E848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBAB1F62795500C0E848 /* Assets.xcassets */; };
 		60DFBBAF1F62795500C0E848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBAD1F62795500C0E848 /* LaunchScreen.storyboard */; };
+		60DFBBB71F627B7000C0E848 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBB61F627B7000C0E848 /* Auth.storyboard */; };
+		74F6A8007ED6517CE956A691 /* Pods_NextChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF32158D8ACCAB62067352C7 /* Pods_NextChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C9BDCFB1B6EDCF280985AC2 /* Pods-NextChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.debug.xcconfig"; sourceTree = "<group>"; };
+		3EEA7E75551D3CBC7BCFB883 /* Pods-NextChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.release.xcconfig"; sourceTree = "<group>"; };
 		60DFBBA11F62795500C0E848 /* NextChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DFBBA41F62795500C0E848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DFBBA61F62795500C0E848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		60DFBBAB1F62795500C0E848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60DFBBAE1F62795500C0E848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60DFBBB01F62795500C0E848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DFBBB61F627B7000C0E848 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		EF32158D8ACCAB62067352C7 /* Pods_NextChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F6A8007ED6517CE956A691 /* Pods_NextChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B9F099A2CEB60A9A9965A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C9BDCFB1B6EDCF280985AC2 /* Pods-NextChat.debug.xcconfig */,
+				3EEA7E75551D3CBC7BCFB883 /* Pods-NextChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60DFBB981F62795500C0E848 = {
 			isa = PBXGroup;
 			children = (
 				60DFBBA31F62795500C0E848 /* NextChat */,
 				60DFBBA21F62795500C0E848 /* Products */,
+				14B9F099A2CEB60A9A9965A6 /* Pods */,
+				7027DED41AA1430A58C1B9E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +75,20 @@
 				60DFBBA41F62795500C0E848 /* AppDelegate.swift */,
 				60DFBBA61F62795500C0E848 /* ViewController.swift */,
 				60DFBBA81F62795500C0E848 /* Main.storyboard */,
+				60DFBBB61F627B7000C0E848 /* Auth.storyboard */,
 				60DFBBAB1F62795500C0E848 /* Assets.xcassets */,
 				60DFBBAD1F62795500C0E848 /* LaunchScreen.storyboard */,
 				60DFBBB01F62795500C0E848 /* Info.plist */,
 			);
 			path = NextChat;
+			sourceTree = "<group>";
+		};
+		7027DED41AA1430A58C1B9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF32158D8ACCAB62067352C7 /* Pods_NextChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60DFBBB31F62795500C0E848 /* Build configuration list for PBXNativeTarget "NextChat" */;
 			buildPhases = (
+				CCCC549ED7EF4196F5BD9295 /* [CP] Check Pods Manifest.lock */,
 				60DFBB9D1F62795500C0E848 /* Sources */,
 				60DFBB9E1F62795500C0E848 /* Frameworks */,
 				60DFBB9F1F62795500C0E848 /* Resources */,
+				D0763C3E4504C14EC085D984 /* [CP] Embed Pods Frameworks */,
+				BD052C5B5049A601369474DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DFBBB71F627B7000C0E848 /* Auth.storyboard in Resources */,
 				60DFBBAF1F62795500C0E848 /* LaunchScreen.storyboard in Resources */,
 				60DFBBAC1F62795500C0E848 /* Assets.xcassets in Resources */,
 				60DFBBAA1F62795500C0E848 /* Main.storyboard in Resources */,
@@ -130,6 +161,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD052C5B5049A601369474DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NextChat/Pods-NextChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCC549ED7EF4196F5BD9295 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NextChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0763C3E4504C14EC085D984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NextChat/Pods-NextChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NextChat/Pods-NextChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60DFBB9D1F62795500C0E848 /* Sources */ = {
@@ -260,6 +351,7 @@
 		};
 		60DFBBB41F62795500C0E848 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9BDCFB1B6EDCF280985AC2 /* Pods-NextChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NextChat/Info.plist;
@@ -272,6 +364,7 @@
 		};
 		60DFBBB51F62795500C0E848 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEA7E75551D3CBC7BCFB883 /* Pods-NextChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NextChat/Info.plist;
@@ -301,6 +394,7 @@
 				60DFBBB51F62795500C0E848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
