@@ -15,6 +15,7 @@
 		60DFBBB71F627B7000C0E848 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBB61F627B7000C0E848 /* Auth.storyboard */; };
 		74F6A8007ED6517CE956A691 /* Pods_NextChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF32158D8ACCAB62067352C7 /* Pods_NextChat.framework */; };
 		F8EA022E1F6289C900947178 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8EA022D1F6289C900947178 /* GoogleService-Info.plist */; };
+		F8EA02301F628FBC00947178 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA022F1F628FBC00947178 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		60DFBBB61F627B7000C0E848 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		EF32158D8ACCAB62067352C7 /* Pods_NextChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EA022D1F6289C900947178 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8EA022F1F628FBC00947178 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				60DFBBA81F62795500C0E848 /* Main.storyboard */,
 				F8EA022D1F6289C900947178 /* GoogleService-Info.plist */,
 				60DFBBB61F627B7000C0E848 /* Auth.storyboard */,
+				F8EA022F1F628FBC00947178 /* ChatViewController.swift */,
 				60DFBBAB1F62795500C0E848 /* Assets.xcassets */,
 				60DFBBAD1F62795500C0E848 /* LaunchScreen.storyboard */,
 				60DFBBB01F62795500C0E848 /* Info.plist */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60DFBBA71F62795500C0E848 /* ViewController.swift in Sources */,
+				F8EA02301F628FBC00947178 /* ChatViewController.swift in Sources */,
 				60DFBBA51F62795500C0E848 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
