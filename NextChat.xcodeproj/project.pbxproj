@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601324671F629DF70021AA2D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601324661F629DF70021AA2D /* SignUpViewController.swift */; };
+		601324691F629E050021AA2D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601324681F629E050021AA2D /* User.swift */; };
 		60DFBBA51F62795500C0E848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFBBA41F62795500C0E848 /* AppDelegate.swift */; };
 		60DFBBA71F62795500C0E848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFBBA61F62795500C0E848 /* ViewController.swift */; };
 		60DFBBAA1F62795500C0E848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBA81F62795500C0E848 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		0C9BDCFB1B6EDCF280985AC2 /* Pods-NextChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.debug.xcconfig"; sourceTree = "<group>"; };
 		3EEA7E75551D3CBC7BCFB883 /* Pods-NextChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.release.xcconfig"; sourceTree = "<group>"; };
+		601324661F629DF70021AA2D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		601324681F629E050021AA2D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		60DFBBA11F62795500C0E848 /* NextChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DFBBA41F62795500C0E848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DFBBA61F62795500C0E848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				60DFBBA81F62795500C0E848 /* Main.storyboard */,
 				F8EA022D1F6289C900947178 /* GoogleService-Info.plist */,
 				60DFBBB61F627B7000C0E848 /* Auth.storyboard */,
+				601324681F629E050021AA2D /* User.swift */,
+				601324661F629DF70021AA2D /* SignUpViewController.swift */,
 				F8EA022F1F628FBC00947178 /* ChatViewController.swift */,
 				60DFBBAB1F62795500C0E848 /* Assets.xcassets */,
 				60DFBBAD1F62795500C0E848 /* LaunchScreen.storyboard */,
@@ -236,6 +242,8 @@
 			files = (
 				60DFBBA71F62795500C0E848 /* ViewController.swift in Sources */,
 				F8EA02301F628FBC00947178 /* ChatViewController.swift in Sources */,
+				601324671F629DF70021AA2D /* SignUpViewController.swift in Sources */,
+				601324691F629E050021AA2D /* User.swift in Sources */,
 				60DFBBA51F62795500C0E848 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
