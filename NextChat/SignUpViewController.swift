@@ -11,6 +11,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     
     @IBAction func signupButton(_ sender: Any) {
+        signUpUser()
     }
     
     override func viewDidLoad() {

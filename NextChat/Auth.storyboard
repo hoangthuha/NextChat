@@ -44,6 +44,9 @@
                                 <rect key="frame" x="126" y="444" width="123" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <segue destination="5vg-W3-thZ" kind="show" id="oaY-r4-pbJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -52,7 +55,6 @@
                     <connections>
                         <outlet property="loginButton" destination="1ir-F9-fyK" id="3ha-LL-Jy8"/>
                         <outlet property="passwordTextField" destination="dve-Fm-AcE" id="sEC-4t-UEK"/>
-                        <outlet property="signupButton" destination="MjY-Be-1j8" id="9FU-fz-MkJ"/>
                         <outlet property="userNameTextField" destination="FRG-ak-Tkt" id="Hkx-91-Pfs"/>
                     </connections>
                 </viewController>
