@@ -17,7 +17,7 @@ class ChatViewController: UIViewController {
     
     @IBOutlet weak var messageTextField: UITextField!
     
-    
+    var users : [User] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()

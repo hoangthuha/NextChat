@@ -1,5 +1,7 @@
 import UIKit
 import FirebaseAuth
+import FirebaseDatabase
+import Firebase
 
 class SignUpViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
@@ -13,6 +15,8 @@ class SignUpViewController: UIViewController {
     @IBAction func signupButton(_ sender: Any) {
         signUpUser()
     }
+    
+    var ref : DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +39,13 @@ class SignUpViewController: UIViewController {
             if let validError = error {
                 self.createErrorAlert("Error", validError.localizedDescription)
             }
+            if let validUser = user {
+                let ref = Database.database().reference()
+                let post : [String : Any] = ["email" : email, "name" : name]
+                ref.child("students").child(validUser.uid).setValue(post)
+                self.navigationController?.popViewController(animated: true)
+            }
+
         }
     }
     func createErrorAlert(_ title: String,_ message: String) {
