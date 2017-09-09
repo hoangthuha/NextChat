@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19AD8A3C1F6291B800A21496 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD8A3B1F6291B800A21496 /* LoginViewController.swift */; };
 		601324671F629DF70021AA2D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601324661F629DF70021AA2D /* SignUpViewController.swift */; };
 		601324691F629E050021AA2D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601324681F629E050021AA2D /* User.swift */; };
-		19AD8A3C1F6291B800A21496 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD8A3B1F6291B800A21496 /* LoginViewController.swift */; };
 		60DFBBA51F62795500C0E848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFBBA41F62795500C0E848 /* AppDelegate.swift */; };
 		60DFBBAA1F62795500C0E848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBA81F62795500C0E848 /* Main.storyboard */; };
 		60DFBBAC1F62795500C0E848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DFBBAB1F62795500C0E848 /* Assets.xcassets */; };
@@ -240,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DFBBA71F62795500C0E848 /* ViewController.swift in Sources */,
 				F8EA02301F628FBC00947178 /* ChatViewController.swift in Sources */,
 				601324671F629DF70021AA2D /* SignUpViewController.swift in Sources */,
 				601324691F629E050021AA2D /* User.swift in Sources */,
